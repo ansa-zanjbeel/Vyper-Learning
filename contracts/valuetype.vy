@@ -15,7 +15,7 @@ d: public(decimal)
 # String
 
 @deploy
-def__init__():
+def __init__():
     self.b = True
     self.i = -126
     self.u = 127
