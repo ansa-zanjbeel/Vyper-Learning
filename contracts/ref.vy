@@ -21,7 +21,11 @@ person: public (Person)
         self.myMap[msg.sender] = 2
 
         self.person.name = "vyper"
-        self.person.age = 77
+        self.person.age = 11
 
-        
+        p: Person = self.person
+        p.name = "solidity"
+        p.age = 22
+
+
 
