@@ -1,12 +1,12 @@
 # pragma version ^0.4.0
 
-event Tranfer:
+event Transfer:
     sender: indexed(address)
-    receiver: indexed (address)
+    receiver: indexed(address)
     amount: uint256
 
 
 @external 
-def transfer(receiver: uint256, amount: uint256):
+def transfer(receiver: address, amount: uint256):
     log Transfer(msg.sender, receiver, amount)
 

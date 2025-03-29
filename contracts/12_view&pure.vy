@@ -7,7 +7,7 @@ count : public(uint256)
 
 @external 
 @pure 
-def add(x: uint256, y, uint256) -> (uint256):
+def add(x: uint256, y: uint256) -> (uint256):
     return x + y
 
 @external 
